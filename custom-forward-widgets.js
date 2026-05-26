@@ -3,12 +3,10 @@
 WidgetMetadata = {
     id: "forward.custom.movies",
     title: "Custom Movie Collections",
-    description: "Curated movie collections: Criterion, MUBI, A24, Studio Ghibli, David Lynch, Wong Kar-wai, Popular Movies",
+    description: "Curated movie collections",
     author: "Custom",
-    site: "https://github.com/laxnad/forward-widgets",
     version: "1.0.0",
     requiredVersion: "0.0.1",
-    detailCacheDuration: 60,
     modules: [
         { id: "popular", title: "Popular Movies", functionName: "fetchPopular", cacheDuration: 3600, params: [] },
         { id: "criterion", title: "Criterion Collection", functionName: "fetchCriterion", cacheDuration: 7200, params: [] },
