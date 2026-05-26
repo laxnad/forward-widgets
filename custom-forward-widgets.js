@@ -17,6 +17,15 @@ WidgetMetadata = {
 var TMDB_KEY = "f884987255f3fffb672b7be1cb71c313";
 var TMDB_BASE = "https://api.themoviedb.org/3";
 
+function getData(res) {
+    if (res.json) return res.json;
+    var d = res.data;
+    if (typeof d === "string") {
+        try { return JSON.parse(d); } catch (e) { return null; }
+    }
+    return d;
+}
+
 async function tmdb(path, params) {
     try {
         var p = { api_key: TMDB_KEY };
@@ -24,7 +33,7 @@ async function tmdb(path, params) {
             for (var k in params) p[k] = params[k];
         }
         var res = await Widget.http.get(TMDB_BASE + path, { params: p });
-        return res.json;
+        return getData(res);
     } catch (e) {
         console.error("tmdb error:", path, e && e.message);
         return null;

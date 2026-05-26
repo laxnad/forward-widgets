@@ -1,13 +1,15 @@
 {
-    "name": "Custom Movie Collections",
-    "version": 1,
-    "modules": [
-        { "id": "popular", "title": "Popular Movies", "functionName": "fetchPopular", "cacheDuration": 3600, "params": [] },
-        { "id": "criterion", "title": "Criterion Collection", "functionName": "fetchCriterion", "cacheDuration": 7200, "params": [] },
-        { "id": "mubi", "title": "MUBI", "functionName": "fetchMUBI", "cacheDuration": 7200, "params": [] },
-        { "id": "a24", "title": "A24", "functionName": "fetchA24", "cacheDuration": 7200, "params": [] },
-        { "id": "ghibli", "title": "Studio Ghibli", "functionName": "fetchGhibli", "cacheDuration": 7200, "params": [] },
-        { "id": "lynch", "title": "David Lynch", "functionName": "fetchLynch", "cacheDuration": 7200, "params": [] },
-        { "id": "wong", "title": "Wong Kar-wai", "functionName": "fetchWongKarWai", "cacheDuration": 7200, "params": [] }
-    ]
+  "title": "Custom Movie Collections",
+  "description": "Curated movie collections: Criterion, MUBI, A24, Studio Ghibli, David Lynch, Wong Kar-wai, Popular Movies",
+  "widgets": [
+    {
+      "id": "forward.custom.movies",
+      "title": "Custom Movie Collections",
+      "description": "Browse curated movie collections",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.0",
+      "author": "Custom",
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/master/custom-forward-widgets.js"
+    }
+  ]
 }
