@@ -10,7 +10,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/india-content.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/india-content.js"
     },
     {
       "id": "forward.streaming.services",
@@ -19,7 +19,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/streaming-services.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/streaming-services.js"
     },
     {
       "id": "forward.genres",
@@ -28,7 +28,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/genres.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/genres.js"
     },
     {
       "id": "forward.franchises",
@@ -37,7 +37,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/franchises.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/franchises.js"
     },
     {
       "id": "forward.decades",
@@ -46,7 +46,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/decades.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/decades.js"
     },
     {
       "id": "forward.actors",
@@ -55,7 +55,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/actors.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/actors.js"
     },
     {
       "id": "forward.directors",
@@ -64,7 +64,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/directors.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/directors.js"
     },
     {
       "id": "forward.studios",
@@ -73,7 +73,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Forward Widgets",
-      "url": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/studios.js"
+      "url": "https://raw.githubusercontent.com/laxnad/forward-widgets/main/studios.js"
     }
   ]
 }
