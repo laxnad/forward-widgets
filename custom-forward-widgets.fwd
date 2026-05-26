@@ -1,12 +1,12 @@
 {
   "title": "Custom Movie Collections",
-  "description": "Curated movie collections: Criterion, MUBI, A24, Studio Ghibli, David Lynch, Wong Kar-wai, Popular Movies",
+  "description": "Custom Movie Collections",
   "icon": "https://raw.githubusercontent.com/laxnad/forward-widgets/master/icon.png",
   "widgets": [
     {
       "id": "forward.custom.movies",
       "title": "Custom Movie Collections",
-      "description": "Browse curated movie collections",
+      "description": "Curated movie collections",
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Custom",
