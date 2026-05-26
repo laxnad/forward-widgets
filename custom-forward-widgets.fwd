@@ -1,10 +1,10 @@
 {
   "title": "Custom Movie Collections",
   "description": "Custom Movie Collections",
-  "icon": "https://raw.githubusercontent.com/laxnad/forward-widgets/master/icon.png",
+  "icon": "https:\/\/raw.githubusercontent.com\/laxnad\/forward-widgets\/master\/icon.png",
   "widgets": [
     {
-      "id": "forward.custom.movies",
+      "id": "custom.movies",
       "title": "Custom Movie Collections",
       "description": "Curated movie collections",
       "requiredVersion": "0.0.1",
