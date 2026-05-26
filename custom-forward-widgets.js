@@ -1,20 +1,14 @@
 "use strict";
 
 WidgetMetadata = {
-    id: "forward.custom.movies",
-    title: "Custom Movie Collections",
-    description: "Curated movie collections",
+    id: "custom.popular.movie",
+    title: "Custom Popular Movies",
+    description: "A single module for popular movies",
     author: "Custom",
     version: "1.0.0",
     requiredVersion: "0.0.1",
     modules: [
-        { id: "popular", title: "Popular Movies", functionName: "fetchPopular", cacheDuration: 3600, params: [] },
-        { id: "criterion", title: "Criterion Collection", functionName: "fetchCriterion", cacheDuration: 7200, params: [] },
-        { id: "mubi", title: "MUBI", functionName: "fetchMUBI", cacheDuration: 7200, params: [] },
-        { id: "a24", title: "A24", functionName: "fetchA24", cacheDuration: 7200, params: [] },
-        { id: "ghibli", title: "Studio Ghibli", functionName: "fetchGhibli", cacheDuration: 7200, params: [] },
-        { id: "lynch", title: "David Lynch", functionName: "fetchLynch", cacheDuration: 7200, params: [] },
-        { id: "wong", title: "Wong Kar-wai", functionName: "fetchWongKarWai", cacheDuration: 7200, params: [] }
+        { id: "popular", title: "Popular Movies", functionName: "fetchPopular", cacheDuration: 3600, params: [] }
     ]
 };
 
@@ -57,17 +51,17 @@ function toItem(m) {
     };
 }
 
-function byYear(a, b) {
-    var ya = a.release_date ? parseInt(a.release_date.split("-")[0]) : 0;
-    var yb = b.release_date ? parseInt(b.release_date.split("-")[0]) : 0;
-    return yb - ya;
-}
-
 async function fetchPopular(params) {
     "use strict";
     var d = await tmdb("/trending/movie/week");
     if (!d || !d.results) return [];
     return d.results.map(toItem);
+}
+
+function byYear(a, b) {
+    var ya = a.release_date ? parseInt(a.release_date.split("-")[0]) : 0;
+    var yb = b.release_date ? parseInt(b.release_date.split("-")[0]) : 0;
+    return yb - ya;
 }
 
 async function fetchCriterion(params) {
